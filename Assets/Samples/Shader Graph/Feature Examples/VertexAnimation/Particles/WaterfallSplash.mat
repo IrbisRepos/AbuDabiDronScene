@@ -26,10 +26,7 @@ Material:
   m_Name: WaterfallSplash
   m_Shader: {fileID: -6465566751694194690, guid: 64ad4a4657d614f4eb137f75a818f5ba,
     type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ALPHATEST_ON
   - _ENABLE_FOG_ON_TRANSPARENT
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
@@ -47,7 +44,6 @@ Material:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -76,6 +72,7 @@ Material:
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
     - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
     - _BUILTIN_QueueControl: -1
     - _BUILTIN_QueueOffset: 0
     - _Blend: 0
@@ -117,15 +114,15 @@ Material:
     - _RotationRandomOffset: 1
     - _RotationSpeed: 100
     - _SoftEdges: 1
-    - _SrcBlend: 5
+    - _SrcBlend: 1
     - _StencilRef: 0
-    - _StencilRefDepth: 1
+    - _StencilRefDepth: 0
     - _StencilRefDistortionVec: 4
-    - _StencilRefMV: 33
+    - _StencilRefMV: 32
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
-    - _StencilWriteMaskMV: 43
+    - _StencilWriteMaskMV: 42
     - _Surface: 1
     - _SurfaceType: 1
     - _TransparentBackfaceEnable: 0
@@ -152,7 +149,6 @@ Material:
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
     - _Wind: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!114 &2174680140971601413
 MonoBehaviour:
   m_ObjectHideFlags: 11
