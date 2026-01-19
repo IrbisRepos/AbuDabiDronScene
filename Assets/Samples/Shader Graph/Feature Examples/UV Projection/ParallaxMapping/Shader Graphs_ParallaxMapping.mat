@@ -50,17 +50,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_ParallaxMapping
-  m_Shader: {fileID: -6465566751694194690, guid: cd83f36f964f4934f9d29eb906e59637, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
+  m_Shader: {fileID: -6465566751694194690, guid: cd83f36f964f4934f9d29eb906e59637,
+    type: 3}
   m_ValidKeywords:
   - _BUMP_TYPE_PARALLAX_OCCLUSION
-  m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: 2225
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -69,12 +68,11 @@ Material:
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
-  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _ParallaxMapping_45bc9ce318e94cd8bb1efe6f1a426e59_Heightmap_1:
-        m_Texture: {fileID: 2800000, guid: 32a29a1fcfffc4549a0d5e44e9977bb6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c31c20ac2129c3428084be388816642, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMapping_45bc9ce318e94cd8bb1efe6f1a426e59_Heightmap_1_Texture2D:
@@ -82,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxOcclusionMapping_708af90e46084ee991b4922c6b10e686_Heightmap_2:
-        m_Texture: {fileID: 2800000, guid: 32a29a1fcfffc4549a0d5e44e9977bb6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c31c20ac2129c3428084be388816642, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxOcclusionMapping_708af90e46084ee991b4922c6b10e686_Heightmap_2_Texture2D:
@@ -90,7 +88,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_539e2820dd6c491c83e7801d1a7d110b_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 583384ba064432b41891bec94e35c8af, type: 3}
+        m_Texture: {fileID: 2800000, guid: b356831ef4f363d48989d117c6ea79e3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_539e2820dd6c491c83e7801d1a7d110b_Texture_1_Texture2D:
@@ -98,7 +96,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_b70879a6857b4b8cb15db8457457c384_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 32a29a1fcfffc4549a0d5e44e9977bb6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c31c20ac2129c3428084be388816642, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_b70879a6857b4b8cb15db8457457c384_Texture_1_Texture2D:
@@ -106,7 +104,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_d68c5939becd48178da43013c8cb73ab_Texture_1:
-        m_Texture: {fileID: 2800000, guid: d7aa8e05f3b6118478e7caf71b9232c2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7be741f9449557c488d643ae307fe1ab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_d68c5939becd48178da43013c8cb73ab_Texture_1_Texture2D:
@@ -131,6 +129,8 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
     - _BUILTIN_QueueControl: 1
     - _BUILTIN_QueueOffset: 0
     - _BUMP_TYPE: 2
@@ -166,10 +166,10 @@ Material:
     - _StencilRefGBuffer: 10
     - _StencilRefMV: 40
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
-    - _StencilWriteMaskGBuffer: 15
-    - _StencilWriteMaskMV: 41
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _TransmissionEnable: 1
@@ -189,4 +189,3 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1

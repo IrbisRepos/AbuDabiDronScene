@@ -107,8 +107,8 @@ Material:
     - _FoamScale: 10
     - _FoamSmoothness: 0.7
     - _MinReflectionDirectionY: 0
-    - _NormalsScale: 40.6
-    - _NormalsStrength: 0
+    - _NormalsScale: 50
+    - _NormalsStrength: 0.3
     - _NormalsStrengthOverall: 1
     - _ObsoleteMessage: 0
     - _Occlusion: 0.2

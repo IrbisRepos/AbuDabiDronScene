@@ -242,11 +242,11 @@ Material:
     - _METALNESS: 0
     - _MaterialID: 1
     - _Metallic: 1
-    - _MetallicRemapMax: 0.91764706
+    - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
     - _Mode: 0
     - _NormalMapSpace: 0
-    - _NormalScale: 2.26
+    - _NormalScale: 1
     - _OPACITY: 1
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
