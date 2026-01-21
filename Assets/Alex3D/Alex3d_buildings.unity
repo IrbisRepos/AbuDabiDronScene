@@ -32802,7 +32802,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee84b2ccf836471c94ceaafe58b392e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Version: 0
 --- !u!4 &543450652459151052
 Transform:
   m_ObjectHideFlags: 0
@@ -33276,7 +33275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a245210cb0ef4c94aac318662d37252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Version: 0
 --- !u!4 &2255294263734155272
 Transform:
   m_ObjectHideFlags: 0
@@ -33916,124 +33914,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 555f01a6f203a4b6db9ec558f7451e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Version: 0
-  _Source: 1
-  _Layer: 0
-  _MinimumWavelength: 1
-  _DistanceFromSurfaceSigned: 0
-  _DistanceFromSurfaceMaximum: 100
-  _DistanceFromSurfaceUseCurve: 1
-  _DistanceFromSurfaceCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 1
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _DistanceFromEdgeSigned: 0
-  _DistanceFromEdgeMaximum: 100
-  _DistanceFromEdgeUseCurve: 1
-  _DistanceFromEdgeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 1
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _OnBelowWater:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3490736097341620416}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _OnAboveWater:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 3490736097341620416}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  _DistanceFromSurface:
-    m_PersistentCalls:
-      m_Calls: []
-  _DistanceFromEdge:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &4889430476343529540
 GameObject:
   m_ObjectHideFlags: 0
