@@ -15,12 +15,14 @@ Material:
   - CREST_FOAM_ON
   - CREST_WATER_VOLUME_NONE
   - _ALPHATEST_ON
+  - _ALPHATOMASK_ON
   - _DOUBLESIDED_ON
   - _ENABLE_FOG_ON_TRANSPARENT
+  - _REFRACTION_THIN
   - _SURFACE_TYPE_TRANSPARENT
   - _TRANSPARENT_WRITES_MOTION_VEC
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 3000
@@ -28,10 +30,9 @@ Material:
     MotionVector: User
     RenderType: Transparent
   disabledShaderPasses:
-  - MOTIONVECTORS
+  - RayTracingPrepass
   - TransparentDepthPostpass
   - TransparentBackface
-  - RayTracingPrepass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -75,8 +76,8 @@ Material:
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
-    - _AlphaToMask: 0
-    - _AlphaToMaskInspectorValue: 0
+    - _AlphaToMask: 1
+    - _AlphaToMaskInspectorValue: 1
     - _BelowHorizonFeatherWidth: 0.675
     - _BelowHorizonOcclusion: 0.138
     - _BelowHorizonThreshold: -0.44
@@ -96,7 +97,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
-    - _EnableBlendModePreserveSpecularLighting: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
     - _FoamBubbleParallax: 0.5
     - _FoamBubblesCoverage: 1.03
@@ -106,18 +107,18 @@ Material:
     - _FoamNormalStrength: 1
     - _FoamScale: 10
     - _FoamSmoothness: 0.7
-    - _MinReflectionDirectionY: 0
+    - _MinReflectionDirectionY: -0.05
     - _NormalsScale: 50
     - _NormalsStrength: 0.3
     - _NormalsStrengthOverall: 1
     - _ObsoleteMessage: 0
-    - _Occlusion: 0.2
+    - _Occlusion: 0.485
     - _OpaqueCullMode: 2
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 1
-    - _RefractionModel: 0
-    - _RefractionStrength: 0.2
+    - _RefractionModel: 3
+    - _RefractionStrength: 0.11
     - _RefractiveIndexOfWater: 1.33
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
@@ -129,8 +130,8 @@ Material:
     - _Smoothness: 1
     - _SmoothnessFalloff: 0.09
     - _SmoothnessFar: 0.579
-    - _SmoothnessFarDistance: 8000
-    - _Specular: 0.108
+    - _SmoothnessFarDistance: 146
+    - _Specular: 0.146
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
@@ -147,7 +148,7 @@ Material:
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
-    - _TransparentDepthPrepassEnable: 0
+    - _TransparentDepthPrepassEnable: 1
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 1
     - _TransparentZWrite: 1
