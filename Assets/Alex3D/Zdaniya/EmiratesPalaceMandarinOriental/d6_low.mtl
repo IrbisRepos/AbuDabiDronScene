@@ -1,5 +1,5 @@
 # 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
-# File Created: 23.01.2026 10:46:06
+# File Created: 23.01.2026 12:08:17
 
 newmtl _EMIRATES_PALACE_TEXTURE_MAT
 	Kd 1.000000 1.000000 1.000000
@@ -29,6 +29,7 @@ newmtl _EMIRATES_PALACE_TEXTURE2_MAT
 	Ni 1.500000
 	Ke 0.000000 0.000000 0.000000
 	illum 2
+	map_Kd T:\UnityProjects\AbuDabiDronScene\Assets\Alex3D\Zdaniya\EmiratesPalaceMandarinOriental\d1df1262e8034c87953eda4cb42d9254_RGB_EMIRATES_PALACE_TEXTURE2.tga.png
 
 newmtl Default_Material
 	Kd 1.000000 1.000000 1.000000
@@ -71,6 +72,7 @@ newmtl _EMIRATES_PALACE_COLOR2_MAT
 	Ni 1.500000
 	Ke 0.000000 0.000000 0.000000
 	illum 2
+	map_Kd I:\Documents\Dubai\3dripper\Downloads\Filcomet\01- EMIRATES.PALACE.HOTEL\b69ba726199f4af68ead239d5eff8c6f_RGB_EMIRATES_PALACE_TEXTURE.tga.png
 
 newmtl _EMIRATES_PALACE_PISO01_MAT
 	Kd 1.000000 1.000000 1.000000
