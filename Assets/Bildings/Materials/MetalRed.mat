@@ -236,7 +236,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BASE_COLOR: {r: 0.4996864, g: 0.17479259, b: 0.018006802, a: 1}
+    - _BASE_COLOR: {r: 0.4056604, g: 0.37350744, b: 0.35782307, a: 1}
     - _BaseColor: {r: 0.73515034, g: 0.45507848, b: 0.14285678, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _COAT_COLOR: {r: 0, g: 0, b: 0, a: 0}
